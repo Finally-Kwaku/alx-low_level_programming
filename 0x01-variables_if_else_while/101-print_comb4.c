@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints all possible different combinations of three digits
+ * main - Print all possible different combinations of three digits
  *
  * Return: Always 0 (Success)
  */
@@ -11,28 +11,31 @@ int main(void)
 	int j;
 	int g;
 
-	for (k = 48; k < 58; k++)
+	while (g < 10)
 	{
-		for (j = 48; j < 58; j++)
+		j = 0;
+		while (j < 10)
 		{
-			if (j > k)
+			k = 0;
+			while (k < 10)
 			{
-				for (g = 48; g < 58; g++)
+				if (k != j && j != g && g < j && j < k)
 				{
-					if (g > j)
+					putchar('0' + g);
+					putchar('0' + j);
+					putchar('0' + k);
+
+					if (k + j + g != 9 + 8 + 7)
 					{
-						putchar(k);
-						putchar(j);
-						putchar(g);
-						if (k == 55 && j == 56 && g == 57)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						putchar(',');
+						putchar(' ');
 					}
 				}
+				k++;
 			}
+			j++;
 		}
+		g++;
 	}
 	putchar('\n');
 	return (0);
