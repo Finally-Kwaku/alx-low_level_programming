@@ -23,7 +23,7 @@ int main(void)
 		}
 		l = j + k;
 		j = k;
-		k = l
+		k = l;
 	}
 	printf("%lu\n", m);
 	return (0);
