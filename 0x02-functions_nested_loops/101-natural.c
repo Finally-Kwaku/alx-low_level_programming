@@ -17,7 +17,7 @@ int main(void)
 			sum += j;
 		}
 	}
-	print("%d\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
 
