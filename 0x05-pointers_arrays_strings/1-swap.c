@@ -3,14 +3,14 @@
 /**
  * swap_int - swaps the value of two integers
  * @a: integer to swap
- * @b integer to swap
+ * @b: integer to swap
  */
 
 void swap_int(int *a, int *b)
 {
-	int m;
+	int j;
 
-	m = *a;
+	j = *a;
 	*a = *b;
-	*b = m;
+	*b = j;
 }
