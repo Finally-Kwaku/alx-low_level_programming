@@ -34,7 +34,7 @@ int _atoi(char *s)
 			k = k * 10 + digit;
 			g = 1;
 
-			if (s[i + 1] < '0' || s[i + 1] > '9'0
+			if (s[i + 1] < '0' || s[i + 1] > '9')
 					break;
 			g = 0;
 		}
