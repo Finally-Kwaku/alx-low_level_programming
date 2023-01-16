@@ -21,7 +21,7 @@ int _strlen(char *s)
 }
 
 /**
- * *_strcpy - copies the string pointed to by src including the
+ * *_strcpy - copies the string pointed to by stc including the
  * terminating null byte (\0) to the buffer pointed to by "d"
  * @d: pointer to the buffer in which we copy the string
  * @stc: string to be copied*
