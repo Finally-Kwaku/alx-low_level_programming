@@ -34,7 +34,7 @@ char *_strcpy(char *d, char *stc)
 	int l, i;
 
 	l = 0;
-	while (src[l] != '\0')
+	while (stc[l] != '\0')
 	{
 		l++;
 	}
