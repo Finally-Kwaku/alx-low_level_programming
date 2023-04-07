@@ -5,7 +5,7 @@
  * @ht: The hash table to add or update the key/value to
  * @key: The key. The key cannot be an empty string.
  * @value: The value associated with key. The value must be duplicated.
- * 		The value can be an empty string
+ *		The value can be an empty string
  *
  * Return: Upon failure - 0.
  *         Otherwise - 1.
