@@ -56,19 +56,7 @@ Write a program that performs simple operations.
 
 3-calc.h
 
-This file should contain all the function prototypes and data structures used by the program. You can use this structure:
-
-"/**
- * struct op - Struct op
- *
- * @op: The operator
- * @f: The function associated
- */
-typedef struct op
-{
-    char *op;
-    int (*f)(int a, int b);
-} op_t;"
+This file should contain all the function prototypes and data structures used by the program.
 
 3-op_functions.c
 
@@ -92,17 +80,6 @@ This file should contain the function that selects the correct function to perfo
 * You are not allowed to use more than one if statement in your code
 * You are not allowed to use more than one while loop in your code
 * If s does not match any of the 5 expected operators (+, -, *, /, %), return NULL
-* You are only allowed to declare these two variables in this function:
-
-"  op_t ops[] = {
-        {"+", op_add},
-        {"-", op_sub},
-        {"*", op_mul},
-        {"/", op_div},
-        {"%", op_mod},
-        {NULL, NULL}
-    };
-    int i;"
 
 3-main.c
 
