@@ -58,7 +58,7 @@ Write a program that performs simple operations.
 
 This file should contain all the function prototypes and data structures used by the program. You can use this structure:
 
-`/**
+"/**
  * struct op - Struct op
  *
  * @op: The operator
@@ -68,7 +68,7 @@ typedef struct op
 {
     char *op;
     int (*f)(int a, int b);
-} op_t;`
+} op_t;"
 
 3-op_functions.c
 
@@ -94,7 +94,7 @@ This file should contain the function that selects the correct function to perfo
 * If s does not match any of the 5 expected operators (+, -, *, /, %), return NULL
 * You are only allowed to declare these two variables in this function:
 
-`  op_t ops[] = {
+"  op_t ops[] = {
         {"+", op_add},
         {"-", op_sub},
         {"*", op_mul},
@@ -102,7 +102,7 @@ This file should contain the function that selects the correct function to perfo
         {"%", op_mod},
         {NULL, NULL}
     };
-    int i;`
+    int i;"
 
 3-main.c
 
