@@ -25,6 +25,7 @@ Write a function that swaps the values of two integers.
 
 Write a function that returns the length of a string.
 - Prototype: int _strlen(char *s); 
+
 FYI: The standard library provides a similar function: strlen. Run man strlen to learn more.
 
 
@@ -33,6 +34,7 @@ FYI: The standard library provides a similar function: strlen. Run man strlen to
 
 Write a function that prints a string, followed by a new line, to stdout.
 - Prototype: void _puts(char *str); 
+
 FYI: The standard library provides a similar function: puts. Run man puts to learn more.
 
 
@@ -82,8 +84,10 @@ Write a function that prints n elements of an array of integers, followed by a n
 -----
 
 - Prototype: char *_strcpy(char *dest, char *src);
+
 Write a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
 - Return value: the pointer to dest
+
 FYI: The standard library provides a similar function: strcpy. Run man strcpy to learn more.
 
 
@@ -99,6 +103,7 @@ Write a function that convert a string to an integer.
 - You are not allowed to declare new variables of “type” array
 - You are not allowed to hard-code special values
 - We will use the -fsanitize=signed-integer-overflow gcc flag to compile your code.
+
 FYI: The standard library provides a similar function: atoi. Run man atoi to learn more.
 
 
