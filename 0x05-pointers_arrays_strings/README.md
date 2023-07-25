@@ -1,27 +1,23 @@
 `0x05. C - Pointers, arrays and strings`
 ===========
 
-TASKS
-=====
+## TASKS
 
 
-`0. 98 Battery st.`
-----
+[0. 98 Battery st.](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/0-reset_to_98.c)
 
 Write a function that takes a pointer to an int as parameter and updates the value it
 points to to 98.
 - Prototype: void reset_to_98(int *n);
 
 
-`1. Don't swap horses in crossing a stream`
------------
+[1. Don't swap horses in crossing a stream](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/1-swap.c)
 
 Write a function that swaps the values of two integers.
 - Prototype: void swap_int(int *a, int *b);
 
 
-`2. This report, by its very length, defends itself against the risk of being read`
-------------
+[2. This report, by its very length, defends itself against the risk of being read](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/2-strlen.c)
 
 Write a function that returns the length of a string.
 - Prototype: int _strlen(char *s); 
@@ -29,8 +25,7 @@ Write a function that returns the length of a string.
 FYI: The standard library provides a similar function: strlen. Run man strlen to learn more.
 
 
-`3. I do not fear computers. I fear the lack of them`
-------
+[3. I do not fear computers. I fear the lack of them](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/3-puts.c)
 
 Write a function that prints a string, followed by a new line, to stdout.
 - Prototype: void _puts(char *str); 
@@ -38,30 +33,28 @@ Write a function that prints a string, followed by a new line, to stdout.
 FYI: The standard library provides a similar function: puts. Run man puts to learn more.
 
 
-`4. I can only go one way. I've not got a reverse gear`
------
+[4. I can only go one way. I've not got a reverse gear](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/4-print_rev.c)
+
 
 Write a function that prints a string, in reverse, followed by a new line.
 - Prototype: void print_rev(char *s);
 
 
-`5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes`
------
+[5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/5-rev_string.c)
 
 Write a function that reverses a string.
 - Prototype: void rev_string(char *s);
 
 
-`6. Half the lies they tell about me aren't true`
--------------
+[6. Half the lies they tell about me aren't true](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/6-puts2.c)
 
 Write a function that prints every other character of a string, starting with the first
 character, followed by a new line.
 - Prototype: void puts2(char *str);
 
 
-`7. Winning is only half of it. Having fun is the other half`
-------
+[7. Winning is only half of it. Having fun is the other half](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/7-puts_half.c)
+
 
 Write a function that prints half of a string, followed by a new line.
 - Prototype: void puts_half(char *str);
@@ -69,8 +62,7 @@ Write a function that prints half of a string, followed by a new line.
 - If the number of characters is odd, the function should print the last n characters of the string, where n = (length_of_the_string - 1) / 2
 
 
-`8. Arrays are not pointers`
-----------
+[8. Arrays are not pointers](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/8-print_array.c)
 
 Write a function that prints n elements of an array of integers, followed by a new line.
 - Prototype: void print_array(int *a, int n);
@@ -80,8 +72,7 @@ Write a function that prints n elements of an array of integers, followed by a n
 - You are allowed to use printf
 
 
-`9. strcpy`
------
+[9. strcpy](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/9-strcpy.c)
 
 - Prototype: char *_strcpy(char *dest, char *src);
 
@@ -91,8 +82,7 @@ Write a function that copies the string pointed to by src, including the termina
 FYI: The standard library provides a similar function: strcpy. Run man strcpy to learn more.
 
 
-`10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers`
----------------
+[10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/100-atoi.c)
 
 Write a function that convert a string to an integer.
 - Prototype: int _atoi(char *s);
@@ -107,8 +97,7 @@ Write a function that convert a string to an integer.
 FYI: The standard library provides a similar function: atoi. Run man atoi to learn more.
 
 
-`11. Don't hate the hacker, hate the code`
---------
+[11. Don't hate the hacker, hate the code](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x05-pointers_arrays_strings/101-keygen.c)
 
 Create a program that generates random valid passwords for the program 101-crackme.
 - You are allowed to use the standard library
