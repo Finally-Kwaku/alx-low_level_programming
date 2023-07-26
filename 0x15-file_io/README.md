@@ -2,12 +2,10 @@
 ===========
 
 
-TASKS
-====
+## TASKS
 
 
-`0. Tread lightly, she is near`
-------
+[0. Tread lightly, she is near](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x15-file_io/0-read_textfile.c)
 
 Write a function that reads a text file and prints it to the POSIX standard output.
 * Prototype: ssize_t read_textfile(const char *filename, size_t letters);
@@ -18,7 +16,7 @@ Write a function that reads a text file and prints it to the POSIX standard outp
 * if write fails or does not write the expected amount of bytes, return 0
 
 
-`1. Under the snow`
+[1. Under the snow](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x15-file_io/1-create_file.c)
 
 Create a function that creates a file.
 * Prototype: int create_file(const char *filename, char *text_content);
@@ -30,8 +28,7 @@ Create a function that creates a file.
 * if text_content is NULL create an empty file
 
 
-`2. Speak gently, she can hear`
-------
+[2. Speak gently, she can hear](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x15-file_io/2-append_text_to_file.c)
 
 Write a function that appends text at the end of a file.
 * Prototype: int append_text_to_file(const char *filename, char *text_content);
@@ -42,8 +39,7 @@ Write a function that appends text at the end of a file.
 * If text_content is NULL, do not add anything to the file. Return 1 if the file exists and -1 if the file does not exist or if you do not have the required permissions to write the file
 
 
-`3. cp`
-----
+[3. cp](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x15-file_io/3-cp.c)
 
 Write a program that copies the content of a file to another file.
 * Usage: cp file_from file_to
@@ -60,8 +56,7 @@ Write a program that copies the content of a file to another file.
 * You are allowed to use dprintf
 
 
-`4. elf`
-----
+[4. elf](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x15-file_io/100-elf_header.c)
 
 Write a program that displays the information contained in the ELF header at the start of an ELF file.
 * Usage: elf_header elf_filename
