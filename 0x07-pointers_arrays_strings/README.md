@@ -2,12 +2,9 @@
 =============
 
 
-TASKS
-=====
+## TASKS
 
-
-`0. memset`
----
+[0. memset](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/0-memset.c)
 
 Write a function that fills memory with a constant byte.
 - Prototype: char *_memset(char *s, char b, unsigned int n);
@@ -15,8 +12,7 @@ Write a function that fills memory with a constant byte.
 - Returns a pointer to the memory area s
 
 
-`1. memcpy`
-----
+[1. memcpy](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/1-memcpy.c)
 
 Write a function that copies memory area.
 - Prototype: char *_memcpy(char *dest, char *src, unsigned int n);
@@ -24,24 +20,21 @@ Write a function that copies memory area.
 - Returns a pointer to dest
 
 
-`2. strchr`
-----
+[2. strchr](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/2-strchr.c)
 
 Write a function that locates a character in a string.
 - Prototype: char *_strchr(char *s, char c);
 - Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found
 
 
-`3. strspn`
-----------
+[3. strspn](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/3-strspn.c)
 
 Write a function that gets the length of a prefix substring.
 - Prototype: unsigned int _strspn(char *s, char *accept);
 - Returns the number of bytes in the initial segment of s which consist only of bytes from accept
 
 
-`4. strpbrk`
------
+[4. strpbrk](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/4-strpbrk.c)
 
 Write a function that searches a string for any of a set of bytes.
 - Prototype: char *_strpbrk(char *s, char *accept);
@@ -49,8 +42,7 @@ Write a function that searches a string for any of a set of bytes.
 - Returns a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found
 
 
-`5. strstr`
------
+[5. strstr](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/5-strstr.c)
 
 Write a function that locates a substring.
 - Prototype: char *_strstr(char *haystack, char *needle);
@@ -58,29 +50,26 @@ Write a function that locates a substring.
 - Returns a pointer to the beginning of the located substring, or NULL if the substring is not found.
 
 
-`6. Chess is mental torture`
----------
+[6. Chess is mental torture](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/7-print_chessboard.c)
 
 Write a function that prints the chessboard.
 - Prototype: void print_chessboard(char (*a)[8]);
 
 
-`7. The line of life is a ragged diagonal between duty and desire`
---------
+[7. The line of life is a ragged diagonal between duty and desire](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/8-print_diagsums.c)
 
 Write a function that prints the sum of the two diagonals of a square matrix of integers.
 - Prototype: void print_diagsums(int *a, int size);
 - You are allowed to use the standard library
 
 
-`8. Double pointer, double fun`
----------
+[8. Double pointer, double fun](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/100-set_string.c)
 
 Write a function that sets the value of a pointer to a char.
 - Prototype: void set_string(char **s, char *to);
 
 
-`9. My primary goal of hacking was the intellectual curiosity, the seduction of adventure`
+[9. My primary goal of hacking was the intellectual curiosity, the seduction of adventure](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x07-pointers_arrays_strings/101-crackme_password)
 --------------
 
 Create a file that contains the password for the crackme2 executable.

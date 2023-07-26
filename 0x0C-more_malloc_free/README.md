@@ -2,12 +2,10 @@
 =============
 
 
-TASKS
-=====
+## TASKS
 
 
-`0. Trust no one`
------
+[0. Trust no one](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0C-more_malloc_free/0-malloc_checked.c)
 
 Write a function that allocates memory using malloc.
 - Prototype: void *malloc_checked(unsigned int b);
@@ -15,8 +13,7 @@ Write a function that allocates memory using malloc.
 - if malloc fails, the malloc_checked function should cause normal process termination with a status value of 98
 
 
-`1. string_nconcat`
-------
+[1. string_nconcat](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0C-more_malloc_free/1-string_nconcat.c)
 
 Write a function that concatenates two strings.
 - Prototype: char *string_nconcat(char *s1, char *s2, unsigned int n);
@@ -26,8 +23,7 @@ Write a function that concatenates two strings.
 - if NULL is passed, treat it as an empty string
 
 
-`2. _calloc`
----------
+[2. _calloc](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0C-more_malloc_free/2-calloc.c)
 
 Write a function that allocates memory for an array, using malloc.
 - Prototype: void *_calloc(unsigned int nmemb, unsigned int size);
@@ -37,8 +33,7 @@ Write a function that allocates memory for an array, using malloc.
 - If malloc fails, then _calloc returns NULL
 
 
-`3. array_range`
------
+[3. array_range](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0C-more_malloc_free/3-array_range.c)
 
 Write a function that creates an array of integers.
 - Prototype: int *array_range(int min, int max);
@@ -48,8 +43,7 @@ Write a function that creates an array of integers.
 - If malloc fails, return NULL
 
 
-`4. _realloc`
-------
+[4. _realloc](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0C-more_malloc_free/100-realloc.c)
 
 Write a function that reallocates a memory block using malloc and free
 - Prototype: void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
@@ -64,8 +58,7 @@ Write a function that reallocates a memory block using malloc and free
 - Don’t forget to free ptr when it makes sense
 
 
-`5. We must accept finite disappointment, but never lose infinite hope`
----------
+[5. We must accept finite disappointment, but never lose infinite hope](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0C-more_malloc_free/101-mul.c)
 
 Write a program that multiplies two positive numbers.
 - Usage: mul num1 num2

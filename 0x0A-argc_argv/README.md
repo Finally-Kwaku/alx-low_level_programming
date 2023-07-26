@@ -1,11 +1,10 @@
 `0x0A. C - argc, argv`
 ===
 
-TASKS
-=====
+## TASKS
 
-`0. It ain't what they call you, it's what you answer to`
----
+
+[0. It ain't what they call you, it's what you answer to](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0A-argc_argv/0-whatsmyname.c)
 
 Write a program that prints its name, followed by a new line.
 
@@ -13,16 +12,14 @@ Write a program that prints its name, followed by a new line.
 - You should not remove the path before the name of the program
 
 
-`1. Silence is argument carried out by other means`
----
+[1. Silence is argument carried out by other means](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0A-argc_argv/1-args.c)
 
 Write a program that prints the number of arguments passed into it.
 
 - Your program should print a number, followed by a new line
 
 
-`2. The best argument against democracy is a five-minute conversation with the average voter`
----
+[2. The best argument against democracy is a five-minute conversation with the average voter](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0A-argc_argv/2-args.c)
 
 Write a program that prints all arguments it receives.
 
@@ -30,8 +27,7 @@ Write a program that prints all arguments it receives.
 - Only print one argument per line, ending with a new line
 
 
-`3. Neither irony nor sarcasm is argument`
----
+[3. Neither irony nor sarcasm is argument](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0A-argc_argv/3-mul.c)
 
 Write a program that multiplies two numbers.
 
@@ -40,8 +36,7 @@ Write a program that multiplies two numbers.
 - If the program does not receive two arguments, your program should print Error, followed by a new line, and return 1
 
 
-`4. To infinity and beyond`
----
+[4. To infinity and beyond](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0A-argc_argv/4-add.c)
 
 Write a program that adds positive numbers.
 
@@ -51,8 +46,7 @@ Write a program that adds positive numbers.
 - You can assume that numbers and the addition of all the numbers can be stored in an int
 
 
-`5. Minimal Number of Coins for Change`
----
+[5. Minimal Number of Coins for Change](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0A-argc_argv/100-change.c)
 
 Write a program that prints the minimum number of coins to make change for an amount of money.
 

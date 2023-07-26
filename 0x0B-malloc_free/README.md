@@ -2,12 +2,11 @@
 ===============
 
 
-TASKS
-=====
+## TASKS
 
 
-`0. Float like a butterfly, sting like a bee`
-------------
+
+[0. Float like a butterfly, sting like a bee](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0B-malloc_free/0-create_array.c)
 
 Write a function that creates an array of chars, and initializes it with a specific char.
 - Prototype: char *create_array(unsigned int size, char c);
@@ -15,8 +14,7 @@ Write a function that creates an array of chars, and initializes it with a speci
 - Returns a pointer to the array, or NULL if it fails
 
 
-`1. The woman who has no imagination has no wings`
-------------
+[1. The woman who has no imagination has no wings](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0B-malloc_free/1-strdup.c)
 
 Write a function that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
 - Prototype: char *_strdup(char *str);
@@ -25,8 +23,7 @@ Write a function that returns a pointer to a newly allocated space in memory, wh
 - On success, the _strdup function returns a pointer to the duplicated string. It returns NULL if insufficient memory was available
 
 
-`2. He who is not courageous enough to take risks will accomplish nothing in life`
----------------
+[2. He who is not courageous enough to take risks will accomplish nothing in life](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0B-malloc_free/2-str_concat.c)
 
 Write a function that concatenates two strings.
 - Prototype: char *str_concat(char *s1, char *s2);
@@ -35,8 +32,7 @@ Write a function that concatenates two strings.
 - The function should return NULL on failure
 
 
-`3. If you even dream of beating me you'd better wake up and apologize`
------
+[3. If you even dream of beating me you'd better wake up and apologize](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0B-malloc_free/3-alloc_grid.c)
 
 Write a function that returns a pointer to a 2 dimensional array of integers.
 - Prototype: int **alloc_grid(int width, int height);
@@ -45,16 +41,14 @@ Write a function that returns a pointer to a 2 dimensional array of integers.
 - If width or height is 0 or negative, return NULL
 
 
-`4. It's not bragging if you can back it up`
-------
+[4. It's not bragging if you can back it up](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0B-malloc_free/4-free_grid.c)
 
 Write a function that frees a 2 dimensional grid previously created by your alloc_grid function.
 - Prototype: void free_grid(int **grid, int height);
 - Note that we will compile with your alloc_grid.c file. Make sure it compiles.
 
 
-`5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe`
------
+[5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0B-malloc_free/100-argstostr.c)
 
 Write a function that concatenates all the arguments of your program.
 - Prototype: char *argstostr(int ac, char **av);
@@ -62,9 +56,7 @@ Write a function that concatenates all the arguments of your program.
 - Returns a pointer to a new string, or NULL if it fails
 - Each argument should be followed by a \n in the new string
 
-
-`6. I will show you how great I am`
-----
+[6. I will show you how great I am](https://github.com/Finally-Kwaku/alx-low_level_programming/blob/master/0x0B-malloc_free/101-strtow.c)
 
 Write a function that splits a string into words.
 - Prototype: char **strtow(char *str);

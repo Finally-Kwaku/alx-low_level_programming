@@ -1,8 +1,8 @@
 `0x09. C - Static libraries`
 ============================
 
-TASKS
-=====
+## TASKS
+
 
 `0. A library is not a luxury but one of the necessities of life`
 ---
